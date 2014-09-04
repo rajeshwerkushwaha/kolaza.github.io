@@ -425,8 +425,6 @@
   100% {
     opacity: 0; } }
 
- 
-  
 .hover-circle {
   position: absolute;
   border-radius: 100px;
@@ -620,6 +618,13 @@
   position: absolute;
   left: 50%; }
 
+
+.orb-icon {
+  background: transparent;
+  position: absolute;
+  left: 50%; }
+
+  
 #orb-layer-1 {
   opacity: 0.7;
   filter: alpha(opacity=70);
@@ -634,6 +639,23 @@
   -ms-animation-delay: 0;
   -moz-animation-delay: 0; }
 
+  
+#orb-icon-layer-1 {
+  opacity: 0.9;
+  font-size:250%;
+  filter: alpha(opacity=70);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  70);
+  animation: panningbig 45s linear infinite;
+  -webkit-animation: panningbig 45s linear infinite;
+  -moz-animation: panningbig 45s linear infinite;
+  -ms-animation: panningbig 45s linear infinite;
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+  -ms-animation-delay: 0;
+  -moz-animation-delay: 0; }
+  
+  
 #orb-layer-2 {
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -648,6 +670,24 @@
   -ms-animation-delay: 0;
   -moz-animation-delay: 0; }
 
+  
+#orb-icon-layer-2 {
+  opacity: 0.5;
+  font-size:100%;
+  filter: alpha(opacity=50);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  50);
+  animation: panningmedium 45s linear infinite;
+  -webkit-animation: panningmedium 45s linear infinite;
+  -moz-animation: panningmedium 45s linear infinite;
+  -ms-animation: panningmedium 45s linear infinite;
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+  -ms-animation-delay: 0;
+  -moz-animation-delay: 0; }
+
+
+  
 #orb-layer-3 {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -680,6 +720,10 @@
   width: 40px;
   height: 40px; }
 
+#orb-icon-layer-1 .orb-icon {
+  width: 40px;
+  height: 40px; }
+
 #orb-1 {
   margin-left: -53%;
   top: 45%; }
@@ -692,10 +736,54 @@
   margin-left: 33%;
   top: 79%; }
 
-#orb-layer-2 .orb {
+#orb-icon-1 {
+  margin-left: -13%;
+  top: 55%; }
+
+#orb-icon-2{
+  margin-left: 13%;
+  top: 25%; }
+
+#orb-icon-3 {
+  margin-left: 20%;
+  top: 50%; }
+
+#orb-icon-4 {
+  margin-left: -27%;
+  top: 35%; }
+
+#orb-icon-5 {
+  margin-left: -33%;
+  top: 75%; }
+
+#orb-icon-6 {
+  margin-left: 43%;
+  top: 35%; }
+
+#orb-icon-7 {
+  margin-left: -3%;
+  top: 7%; }
+
+#orb-icon-8 {
+  margin-left: 38%;
+  top: 10%; }
+
+#orb-icon-9 {
+  margin-left: 5%;
+  top: 69%; }
+
+#orb-icon-10 {
+  margin-left: 31%;
+  top: 75%; }
+
+#orb-layer-2 .orb-icon {
   width: 20px;
   height: 20px; }
 
+#orb-layer-2 .orb {
+  width: 20px;
+  height: 20px; }
+  
 #orb-4 {
   margin-left: 43%;
   top: 75%; }
@@ -723,6 +811,70 @@
 #orb-10 {
   margin-left: -52%;
   top: 75%; }
+
+#orb-icon-11 {
+  margin-left: -12%;
+  top: 28%; }
+
+#orb-icon-12 {
+  margin-left: 12%;
+  top: 36%; }
+
+#orb-icon-13 {
+  margin-left: -32%;
+  top: 47%; }
+
+#orb-icon-14 {
+  margin-left: -39%;
+  top: 18%; }
+
+#orb-icon-15 {
+  margin-left: 21%;
+  top: 72%; }
+
+#orb-icon-16 {
+  margin-left: 47%;
+  top: 58%; }
+
+#orb-icon-17 {
+  margin-left: 29%;
+  top: 47%; }
+
+#orb-icon-18 {
+  margin-left: 8%;
+  top: 63%; }
+
+#orb-icon-19 {
+  margin-left: 23%;
+  top: 87%; }
+
+#orb-icon-20 {
+  margin-left: -27%;
+  top: 82%; }
+
+#orb-icon-21 {
+  margin-left: 30%;
+  top: 21%; }
+
+#orb-icon-22 {
+  margin-left: -17%;
+  top: 87%; }
+
+#orb-icon-23 {
+  margin-left: -7%;
+  top: 57%; }
+
+#orb-icon-24 {
+  margin-left: -16%;
+  top: 31%; }
+
+#orb-icon-25 {
+  margin-left: -24%;
+  top: 12%; }
+
+#orb-icon-26 {
+  margin-left: -47%;
+  top: 52%; }
 
 #orb-layer-3 .orb {
   width: 6px;
@@ -851,29 +1003,20 @@
 #orb-40 {
   margin-left: 22%;
   top: 29%; }
- 
-  #orb-layer-1 .orb {
-    width: 100px;
-    height: 100px; }
 
-  #orb-layer-2 .orb {
-    width: 50px;
-    height: 50px; }
+#orb-layer-1 .orb {
+width: 100px;
+height: 100px; }
 
-  #orb-layer-3 .orb {
-    width: 20px;
-    height: 20px; }
+#orb-layer-2 .orb {
+width: 50px;
+height: 50px; }
 
-  #orb-layer-4 .orb {
-    width: 5px;
-    height: 5px; }
+#orb-layer-3 .orb {
+width: 20px;
+height: 20px; }
 
-  .back-to-home {
-    float: left;
-    width: 69px;
-    height: 26px;
-    margin-left: 0;
-    background-size: 69px; }
-    .back-to-home.gray {
-      margin: 30px 0; }
- 
+#orb-layer-4 .orb {
+width: 5px;
+height: 5px; }
+
