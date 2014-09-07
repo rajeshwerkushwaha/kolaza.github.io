@@ -1,13 +1,4 @@
 /* CSS Document */
-
-/*
-	Theme Name: Venda
-	Description: Venda - Responsive Template
-	Version: 1.0
-	Author: ZoOm-Arts
-	Website: http://zoom-arts.com
-*/
-
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
 /* ------------------------------------------ */
@@ -45,7 +36,10 @@ body {
 	font-weight: 300;
 	color: #888;
 	background: url(../images/patterns/1.png) fixed repeat;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 strong, b {
 	font-weight: 600;
 }
@@ -130,6 +124,10 @@ p {
 
 p strong {
 	font-weight: 600;
+}
+
+.text-shadow{
+    text-shadow:1px 1px 1px rgba(127, 127, 127, 0.3);
 }
 
 .fittext {
