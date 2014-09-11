@@ -118,6 +118,9 @@ ul.breadcrumbs li a:hover {
 .btn-system.border-btn {
 	border-color: #00afd1;
 	color: #00afd1;
+}
+
+.btn-system.border-btn.head{
 	border:3px;
 	font-size:300%;
 	font-weight:bold;
