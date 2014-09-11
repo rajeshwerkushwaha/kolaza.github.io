@@ -442,7 +442,7 @@ $(document).ready(function($) {
 		loop: true,
 		in: {
 			effect: 'bounceIn',
-			delayScale: 2,
+			delayScale: 1,
 			delay: 50,
 			sequence: true,
 			sync: false,
@@ -451,7 +451,7 @@ $(document).ready(function($) {
 		},
 		out: {
 			effect: 'bounceOut',
-			delayScale: 2,
+			delayScale: 1,
 			delay: 50,
 			sequence: true,
 			sync: false,
