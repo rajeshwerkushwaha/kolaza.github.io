@@ -441,20 +441,22 @@ $(document).ready(function($) {
 	$('.tlt').textillate({
 		loop: true,
 		in: {
-			effect: 'fadeInUp',
+			effect: 'bounceIn',
 			delayScale: 2,
 			delay: 50,
+			sequence: true,
 			sync: false,
 			shuffle: false,
-			reverse: true,
+			reverse: false,
 		},
 		out: {
-			effect: 'fadeOutUp',
+			effect: 'bounceOut',
 			delayScale: 2,
 			delay: 50,
+			sequence: true,
 			sync: false,
 			shuffle: false,
-			reverse: true,
+			reverse: false,
 		},
 	});
 	
