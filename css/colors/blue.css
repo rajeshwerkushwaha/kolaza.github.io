@@ -124,6 +124,9 @@ ul.breadcrumbs li a:hover {
 	border:3px;
 	font-size:300%;
 	font-weight:bold;
+	opacity:1;
+	color:#fff;
+	background:#00afd1;
 }
 
 .btn-system.border-btn:hover {
