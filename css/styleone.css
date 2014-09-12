@@ -443,7 +443,7 @@
     width: 55px;
     height: 55px; }
   .hover-circle.one {
-    top: -17px;
+    top: -25px;
     margin-left: 37px;
     animation: hover 5s infinite linear;
     -webkit-animation: hover 5s infinite linear;
@@ -467,6 +467,17 @@
   .hover-circle.three {
     top: 41px;
     margin-left: -150px;
+    animation: hover 5s infinite linear;
+    -webkit-animation: hover 5s infinite linear;
+    -moz-animation: hover 5s infinite linear;
+    -ms-animation: hover 5s infinite linear;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -ms-animation-delay: 0;
+    -moz-animation-delay: 0; }
+ .hover-circle.threea {
+    top: 48px;
+    margin-left: -140px;
     animation: hover 5s infinite linear;
     -webkit-animation: hover 5s infinite linear;
     -moz-animation: hover 5s infinite linear;
@@ -500,6 +511,17 @@
   .hover-circle.six {
     top: -30px;
     margin-left: -84px;
+    animation: hover 5s infinite linear;
+    -webkit-animation: hover 5s infinite linear;
+    -moz-animation: hover 5s infinite linear;
+    -ms-animation: hover 5s infinite linear;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -ms-animation-delay: 0;
+    -moz-animation-delay: 0; }
+.hover-circle.sixa {
+    top: -30px;
+    margin-left: -64px;
     animation: hover 5s infinite linear;
     -webkit-animation: hover 5s infinite linear;
     -moz-animation: hover 5s infinite linear;
@@ -585,30 +607,48 @@
     -webkit-animation-delay: 0;
     -ms-animation-delay: 0;
     -moz-animation-delay: 0; }
+.hover-circle.fourteen {
+    top: 204px;
+    margin-left: 830px;
+    animation: hover 6s infinite linear;
+    -webkit-animation: hover 6s infinite linear;
+    -moz-animation: hover 6s infinite linear;
+    -ms-animation: hover 6s infinite linear;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -ms-animation-delay: 0;
+    -moz-animation-delay: 0; }
+.hover-circle.fifteen {
+    top: 404px;
+    margin-left: 630px;
+    animation: hover 6s infinite linear;
+    -webkit-animation: hover 6s infinite linear;
+    -moz-animation: hover 6s infinite linear;
+    -ms-animation: hover 6s infinite linear;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -ms-animation-delay: 0;
+    -moz-animation-delay: 0; }
   
 #background-effects {
   /*background: #1D445F;*/
-  position: absolute;
+ background:#444;
+position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; 
-  opacity:0.5; }
-  #background-effects.one{
-  background: url(../images/patterns/6.png) repeat !important; 
-  }
-  #background-effects.black{
-  background:#000;
-  }  #background-effects.no-bg {
+  overflow: hidden;  
+  opacity:1.5; }
+  #background-effects.no-bg {
     background-color: transparent; }
     #background-effects.no-bg .orb {
       opacity: 0.4;
       filter: alpha(opacity=40);
       -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  40); }
-  #background-effects .orb-layer {
-    position: absolute;
+  #background-effects .orb-layer {   
+position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -616,14 +656,14 @@
     z-index: 0; }
 
 .orb {
-  background: #00afd1;
+ background:#00afd1;
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   -ms-border-radius: 100px;
   position: absolute;
   left: 50%; }
-
+  
 
 .orb-icon {
   background: transparent;
@@ -652,10 +692,10 @@
   filter: alpha(opacity=70);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  70);
-  animation: panningbig 45s linear infinite;
-  -webkit-animation: panningbig 45s linear infinite;
-  -moz-animation: panningbig 45s linear infinite;
-  -ms-animation: panningbig 45s linear infinite;
+  animation: panningbig 80s linear infinite;
+  -webkit-animation: panningbig 80s linear infinite;
+  -moz-animation: panningbig 80s linear infinite;
+  -ms-animation: panningbig 80s linear infinite;
   animation-delay: 0;
   -webkit-animation-delay: 0;
   -ms-animation-delay: 0;
@@ -678,21 +718,34 @@
 
   
 #orb-icon-layer-2 {
-  opacity: 0.5;
-  font-size:100%;
+  opacity: 1.1;
+  font-size:150%;
   filter: alpha(opacity=50);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  50);
-  animation: panningmedium 45s linear infinite;
-  -webkit-animation: panningmedium 45s linear infinite;
-  -moz-animation: panningmedium 45s linear infinite;
-  -ms-animation: panningmedium 45s linear infinite;
+  animation: panningmedium 70s linear infinite;
+  -webkit-animation: panningmedium 70s linear infinite;
+  -moz-animation: panningmedium 70s linear infinite;
+  -ms-animation: panningmedium 70s linear infinite;
   animation-delay: 0;
   -webkit-animation-delay: 0;
   -ms-animation-delay: 0;
   -moz-animation-delay: 0; }
-
-
+  
+  #orb-icon-layer-2a {
+  opacity: 1.1;
+  font-size:175%;
+  filter: alpha(opacity=50);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  50);
+  animation: panningmedium 40s linear infinite;
+  -webkit-animation: panningmedium 40s linear infinite;
+  -moz-animation: panningmedium 40s linear infinite;
+  -ms-animation: panningmedium 40s linear infinite;
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+  -ms-animation-delay: 0;
+  -moz-animation-delay: 0; }
   
 #orb-layer-3 {
   opacity: 0.3;
@@ -703,20 +756,52 @@
   -webkit-animation: panningsmall 45s linear infinite;
   -moz-animation: panningsmall 45s linear infinite;
   -ms-animation: panningsmall 45s linear infinite;
-  animation-delay: 0;
+  animation-delay: 0; 
   -webkit-animation-delay: 0;
   -ms-animation-delay: 0;
   -moz-animation-delay: 0; }
 
+  #orb-icon-layer-3 {
+  opacity: 1.5;
+  font-size:200%;
+  filter: alpha(opacity=50);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  50);
+  animation: panningmedium 55s linear infinite;
+  -webkit-animation: panningmedium 55s linear infinite;
+  -moz-animation: panningmedium 55s linear infinite;
+  -ms-animation: panningmedium 55s linear infinite;
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+  -ms-animation-delay: 0;
+  -moz-animation-delay: 0; }
+  
+  
+  
 #orb-layer-4 {
-  opacity: 0.2;
-  filter: alpha(opacity=20);
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 20);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  20);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  80);
   animation: panningtiny 45s linear infinite;
   -webkit-animation: panningtiny 45s linear infinite;
   -moz-animation: panningtiny 45s linear infinite;
   -ms-animation: panningtiny 45s linear infinite;
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+  -ms-animation-delay: 0;
+  -moz-animation-delay: 0; }
+  
+#orb-icon-layer-4 {
+  opacity: 1.0;
+  font-size:200%;
+  filter: alpha(opacity=20);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 20);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity =  20);
+  animation: panningmedium 35s linear infinite;
+  -webkit-animation: panningmedium 35s linear infinite;
+  -moz-animation: panningmedium 35s linear infinite;
+  -ms-animation: panningmedium 35s linear infinite;
   animation-delay: 0;
   -webkit-animation-delay: 0;
   -ms-animation-delay: 0;
@@ -743,50 +828,66 @@
   top: 79%; }
 
 #orb-icon-1 {
+color:#ffe215;
   margin-left: -13%;
   top: 55%; }
 
 #orb-icon-2{
+color:#ffe215;
   margin-left: 13%;
   top: 25%; }
 
 #orb-icon-3 {
+color:#ff4706;
   margin-left: 20%;
   top: 50%; }
 
 #orb-icon-4 {
+color:#ff4706;
   margin-left: -27%;
   top: 35%; }
 
 #orb-icon-5 {
+color:#ff4706;
   margin-left: -33%;
   top: 75%; }
 
 #orb-icon-6 {
+color:#ff4706;
   margin-left: 43%;
   top: 35%; }
 
 #orb-icon-7 {
+color:#ff4706;
   margin-left: -3%;
   top: 7%; }
 
 #orb-icon-8 {
+color:#ff4706;
   margin-left: 38%;
   top: 10%; }
 
 #orb-icon-9 {
+color:#ff4706;
   margin-left: 5%;
   top: 69%; }
 
 #orb-icon-10 {
+color:#ff4706;
   margin-left: 31%;
   top: 75%; }
 
-#orb-layer-2 .orb-icon {
+#orb-icon-layer-2 .orb-icon {
+color:#ff4706;
   width: 20px;
   height: 20px; }
 
 #orb-layer-2 .orb {
+  width: 20px;
+  height: 20px; }
+  
+  #orb-icon-layer-2a .orb-icon {
+  color:#4cff00;
   width: 20px;
   height: 20px; }
   
@@ -881,11 +982,80 @@
 #orb-icon-26 {
   margin-left: -47%;
   top: 52%; }
+  
+  #orb-icon-11a {
+  margin-left: 12%;
+  top: 39%; }
 
+#orb-icon-12a {
+  margin-left: 42%;
+  top: 5%; }
+
+#orb-icon-13a {
+  margin-left: -32%;
+  top: 25%; }
+
+#orb-icon-14a {
+  margin-left: -39%;
+  top: 9%; }
+
+#orb-icon-15a {
+  margin-left: 51%;
+  top: 20%; }
+
+#orb-icon-16a {
+  margin-left: 17%;
+  top: 12%; }
+
+#orb-icon-17a {
+  margin-left: 19%;
+  top: 47%; }
+
+#orb-icon-18a {
+  margin-left: -37%;
+  top: 75%; }
+
+#orb-icon-19a {
+  margin-left: 0%;
+  top: 23%; }
+
+#orb-icon-20a {
+  margin-left: 23%;
+  top: 82%; }
+
+#orb-icon-21a {
+  margin-left: 36%;
+  top: 21%; }
+
+#orb-icon-22a {
+  margin-left: -39%;
+  top: 34%; }
+
+#orb-icon-23a {
+  margin-left: -19%;
+  top: 36%; }
+
+#orb-icon-24a {
+  margin-left: -14%;
+  top: 59%; }
+
+#orb-icon-25a {
+  margin-left: -26%;
+  top: 60%; }
+
+#orb-icon-26a {
+  margin-left: -20%;
+  top: 70%; }
+  
+#orb-icon-layer-3 .orb-icon {
+color:#ffa133;
+  width: 20px;
+  height: 20px; }
+  
 #orb-layer-3 .orb {
   width: 6px;
   height: 6px; }
-
+  
 #orb-11 {
   margin-left: 27%;
   top: 78%; }
@@ -926,10 +1096,51 @@
   margin-left: -14%;
   top: 50%; }
 
-#orb-layer-4 .orb {
-  width: 2px;
-  height: 2px; }
+  #orb-icon-41a{
+  margin-left: 32%;
+  top: 23%; }
 
+#orb-icon-42a {
+  margin-left: 26%;
+  top: 56%; }
+
+#orb-icon-43a {
+  margin-left: -17%;
+  top: 43%; }
+
+#orb-icon-44a {
+  margin-left: -38%;
+  top: 77%; }
+
+#orb-icon-45a {
+  margin-left: 46%;
+  top: 35%; }
+
+#orb-icon-46a{
+  margin-left: -13%;
+  top: 19%; }
+
+#orb-icon-47a {
+  margin-left: 56%;
+  top: 22%; }
+
+#orb-icon-48a {
+  margin-left: 7%;
+  top: 79%; }
+
+#orb-icon-49a {
+  margin-left: 41%;
+  top: 62%; }
+  
+   #orb-icon-50a {
+  margin-left: -37%;
+  top: 55%	; }
+
+#orb-icon-layer-4 .orb-icon {
+color: #4cff00;
+  width: 10px;
+  height: 10px; }
+  
 #orb-21 {
   margin-left: 4%;
   top: 76%; }
@@ -1010,6 +1221,46 @@
   margin-left: 22%;
   top: 29%; }
 
+ #orb-icon-41b{
+  margin-left: 28%;
+  top: 19%; }
+
+#orb-icon-42b {
+  margin-left: 21%;
+  top: 51%; }
+
+#orb-icon-43b {
+  margin-left: -13%;
+  top: 39%; }
+
+#orb-icon-44b {
+  margin-left: -34%;
+  top: 73%; }
+
+#orb-icon-45b {
+  margin-left: 41%;
+  top: 31%; }
+
+#orb-icon-46b{
+  margin-left: -9%;
+  top: 15%; }
+
+#orb-icon-47b {
+  margin-left: 52%;
+  top: 17%; }
+
+#orb-icon-48b {
+  margin-left: 3%;
+  top: 74%; }
+
+#orb-icon-49b {
+  margin-left: 36%;
+  top: 58%; }
+  
+   #orb-icon-50b {
+  margin-left: -33%;
+  top: 52%	; }
+  
 #orb-layer-1 .orb {
 width: 100px;
 height: 100px; }
@@ -1023,6 +1274,7 @@ width: 20px;
 height: 20px; }
 
 #orb-layer-4 .orb {
-width: 5px;
-height: 5px; }
+background:#fff;
+width: 2px;
+height: 2px; }
 
