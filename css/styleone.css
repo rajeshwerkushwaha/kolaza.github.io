@@ -598,8 +598,8 @@
   #background-effects.one{
   background: url(../images/patterns/6.png) repeat !important; 
   }
-  #background-effects .two{
-  background:none !important;
+  #background-effects.black{
+  background:#000;
   }  #background-effects.no-bg {
     background-color: transparent; }
     #background-effects.no-bg .orb {
