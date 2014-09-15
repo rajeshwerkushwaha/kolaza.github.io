@@ -65,7 +65,7 @@
     <script type="text/javascript" src="js/jquery.parallax.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -285,7 +285,13 @@
                 <span class="orb-icon" id="orb-icon-9"><i class="icon-code-1"></i></span>
                 <span class="orb-icon" id="orb-icon-10"><i class="icon-at"></i></span>
             </div>
-
+            <!--
+<div class="orb-layer" id="orb-layer-1">
+<span class="orb" id="orb-1"></i></span>
+<span class="orb" id="orb-2"></span>
+<span class="orb" id="orb-3"></span>
+</div>
+-->
             <div class="orb-layer" id="orb-layer-2">
                 <span class="orb" id="orb-4"></span>
                 <span class="orb" id="orb-5"></span>
@@ -866,49 +872,47 @@
                 </div>
             </div>
             <!-- End Full Width Section 2 -->
-
+			
             <!-- Start Full Width Section 4 -->
-            <div class="section" style="padding-top:120px;padding-bottom:120px; border-top:1px solid #eee; border-bottom:1px solid #eee; background: url(images/patterns/9.png) repeat !important" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+        	<div class="section" style="padding-top:120px;padding-bottom:120px; border-top:1px solid #eee; border-bottom:1px solid #eee; background: url(images/patterns/9.png) repeat !important"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                 <div class="container">
+                
+                	<!-- Start Service Icon 1 -->
+                        <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
+                            <div class="service-icon">
+                                <i class="icon-mail-alt icon-large" style="color:#fff;"></i>
+                            </div>
+                            <div class="service-content">
+                                <a href="#" class="btn-system btn-large border-btn btn-wite">Contact Us</a>
+                            </div>
+                        </div>
+                        <!-- End Service Icon 1 -->
 
-                    <!-- Start Service Icon 1 -->
-                    <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
-                        <div class="service-icon">
-                            <i class="icon-mail-alt icon-large" style="color:#fff;"></i>
+                        <!-- Start Service Icon 2 -->
+                        <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
+                            <div class="service-icon">
+                                <i class="icon-suitcase-1 icon-large" style="color:#fff;"></i>
+                            </div>
+                            <div class="service-content">
+                                <a href="#" class="btn-system btn-large border-btn btn-wite">Request Quote</a>
+                            </div>
                         </div>
-                        <div class="service-content">
-                            <a href="#" class="btn-system btn-large border-btn btn-wite">Contact Us</a>
-                        </div>
-                    </div>
-                    <!-- End Service Icon 1 -->
+                        <!-- End Service Icon 2 -->
 
-                    <!-- Start Service Icon 2 -->
-                    <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
-                        <div class="service-icon">
-                            <i class="icon-suitcase-1 icon-large" style="color:#fff;"></i>
+                        <!-- Start Service Icon 3 -->
+                        <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
+                            <div class="service-icon">
+                                <i class="icon-megaphone-1 icon-large" style="color:#fff;"></i>
+                            </div>
+                            <div class="service-content">
+                                <a href="#" class="btn-system btn-large border-btn btn-wite">Send Feedback</a>
+                            </div>
                         </div>
-                        <div class="service-content">
-                            <a href="#" class="btn-system btn-large border-btn btn-wite">Request Quote</a>
-                        </div>
-                    </div>
-                    <!-- End Service Icon 2 -->
-
-                    <!-- Start Service Icon 3 -->
-                    <div class="col-md-4 service-box service-center wow fadeInLeftBig" data-wow-offset="2">
-                        <div class="service-icon">
-                            <i class="icon-megaphone-1 icon-large" style="color:#fff;"></i>
-                        </div>
-                        <div class="service-content">
-                            <a href="#" class="btn-system btn-large border-btn btn-wite">Send Feedback</a>
-                        </div>
-                    </div>
-                    <!-- End Service Icon 3 -->
-
+                        <!-- End Service Icon 3 -->
+					
                 </div>
             </div>
             <!-- End Full Width Section 4 -->
-
-
 
             <!-- Start Full Width Section 3 -->
             <div class="section" style="padding-top:50px; padding-bottom:25px; border-top:0; border-bottom:0; background:#fff;">
@@ -1304,11 +1308,11 @@
                 </div>
             </div>
             <!-- End Full Width Section 3 -->
-
+			
             <!-- Start Divider -->
             <div class="hr5"></div>
             <!-- End Divider -->
-
+			
             <!-- Start Full Width Section 5 -->
             <div class="section" style="padding-top:60px; padding-bottom:60px; border-top:0; border-bottom:0; background:#fff;">
 
@@ -1736,195 +1740,196 @@
                     </div>
                     <!-- End Team Members -->
 
-
-                </div>
-                <!-- End Full Width Sections Content -->
-
-
+			</div>
+        </div>
+        <!-- End Full Width Sections Content -->
 
 
-                <!-- Start Footer -->
-                <footer>
-                    <div class="container">
-                        <div class="row footer-widgets">
 
-                            <!-- Start Contact Widget -->
-                            <div class="col-md-3">
-                                <div class="footer-widget contact-widget">
-                                    <h4>Contact info<span class="head-line"></span></h4>
-                                    <ul>
-                                        <li><span>Address:</span> 1234 Street Name, City Name, Egypt</li>
-                                        <li><span>Phone Number:</span> +01 234 567 890</li>
-                                        <li><span>Fax Number:</span> +01 234 567 890</li>
-                                        <li><span>Email:</span> company@company.com</li>
-                                        <li><span>Website:</span> www.yourdomain.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End Contact Widget -->
 
-                            <!-- Start Flickr Widget -->
-                            <div class="col-md-3">
-                                <div class="footer-widget flickr-widget">
-                                    <h4>Flicker Feed<span class="head-line"></span></h4>
-                                    <ul class="flickr-list">
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img alt="" src="http://placehold.it/72x65/ddd/aaa">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End Flickr Widget -->
+        <!-- Start Footer -->
+        <footer>
+            <div class="container">
+                <div class="row footer-widgets">
 
-                            <!-- Start Twitter Widget -->
-                            <div class="col-md-3">
-                                <div class="footer-widget twitter-widget">
-                                    <h4>Twitter Feed<span class="head-line"></span></h4>
-                                    <ul>
-                                        <li>
-                                            <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                                            <span>29 September 2013</span>
-                                        </li>
-                                        <li>
-                                            <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
-                                            <span>26 September 2013</span>
-                                        </li>
-                                        <li>
-                                            <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                                            <span>29 September 2013</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End Twitter Widget -->
+                    <!-- Start Contact Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget contact-widget">
+                            <h4>Contact info<span class="head-line"></span></h4>
+                            <ul>
+                                <li><span>Address:</span> 1234 Street Name, City Name, Egypt</li>
+                                <li><span>Phone Number:</span> +01 234 567 890</li>
+                                <li><span>Fax Number:</span> +01 234 567 890</li>
+                                <li><span>Email:</span> company@company.com</li>
+                                <li><span>Website:</span> www.yourdomain.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Contact Widget -->
 
-                            <!-- Start Subscribe & Social Links Widget -->
-                            <div class="col-md-3">
-                                <div class="footer-widget mail-subscribe-widget">
-                                    <h4>Get in touch<span class="head-line"></span></h4>
-                                    <p>Join our mailing list to stay up to date and get notices about our new Ideas!</p>
-                                    <form class="subscribe">
-                                        <input type="text" placeholder="Your-email@example.com">
-                                        <input type="submit" class="main-button" value="Send">
-                                    </form>
-                                </div>
-                                <div class="footer-widget social-widget">
-                                    <h4>Follow Us<span class="head-line"></span></h4>
-                                    <ul class="social-icons">
-                                        <li>
-                                            <a class="facebook" href="#"><i class="icon-facebook-2"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="twitter" href="#"><i class="icon-twitter-2"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="google" href="#"><i class="icon-gplus-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="linkdin" href="#"><i class="icon-linkedin-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="tumblr" href="#"><i class="icon-tumblr-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a class="instgram" href="#"><i class="icon-instagramm"></i></a>
-                                        </li>
-                                        <!--<li>
+                    <!-- Start Flickr Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget flickr-widget">
+                            <h4>Flicker Feed<span class="head-line"></span></h4>
+                            <ul class="flickr-list">
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" src="http://placehold.it/72x65/ddd/aaa">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Flickr Widget -->
+
+                    <!-- Start Twitter Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget twitter-widget">
+                            <h4>Twitter Feed<span class="head-line"></span></h4>
+                            <ul>
+                                <li>
+                                    <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
+                                    <span>29 September 2013</span>
+                                </li>
+                                <li>
+                                    <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
+                                    <span>26 September 2013</span>
+                                </li>
+                                <li>
+                                    <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
+                                    <span>29 September 2013</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Twitter Widget -->
+
+                    <!-- Start Subscribe & Social Links Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget mail-subscribe-widget">
+                            <h4>Get in touch<span class="head-line"></span></h4>
+                            <p>Join our mailing list to stay up to date and get notices about our new Ideas!</p>
+                            <form class="subscribe">
+                                <input type="text" placeholder="Your-email@example.com">
+                                <input type="submit" class="main-button" value="Send">
+                            </form>
+                        </div>
+                        <div class="footer-widget social-widget">
+                            <h4>Follow Us<span class="head-line"></span></h4>
+                            <ul class="social-icons">
+                                <li>
+                                    <a class="facebook" href="#"><i class="icon-facebook-2"></i></a>
+                                </li>
+                                <li>
+                                    <a class="twitter" href="#"><i class="icon-twitter-2"></i></a>
+                                </li>
+                                <li>
+                                    <a class="google" href="#"><i class="icon-gplus-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
+                                </li>
+                                <li>
+                                    <a class="linkdin" href="#"><i class="icon-linkedin-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="tumblr" href="#"><i class="icon-tumblr-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="instgram" href="#"><i class="icon-instagramm"></i></a>
+                                </li>
+                                <!--<li>
 									<a class="vimeo" href="#"><i class="icon-vimeo"></i></a>
 								</li>-->
-                                        <li>
-                                            <a class="skype" href="#"><i class="icon-skype-2"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                <li>
+                                    <a class="skype" href="#"><i class="icon-skype-2"></i></a>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- End Subscribe & Social Links Widget -->
-
-                        <!-- Start Copyright -->
-                        <div class="copyright-section">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p>© 2014 Kolaza - All Rights Reserved</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="footer-nav">
-                                        <li><a href="#">Sitemap</a>
-                                        </li>
-                                        <li><a href="#">Privacy Policy</a>
-                                        </li>
-                                        <li><a href="#">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Copyright -->
-
                     </div>
-                </footer>
-                <!-- End Footer -->
-
-            </div>
-            <!-- End Container -->
-
-            <!-- Go To Top Link -->
-            <a href="#" class="back-to-top"><i class="icon-up-open-1"></i></a>
-
-            <div id="loader">
-                <div class="spinner">
-                    <div class="dot1"></div>
-                    <div class="dot2"></div>
                 </div>
+                <!-- End Subscribe & Social Links Widget -->
+
+                <!-- Start Copyright -->
+                <div class="copyright-section">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>© 2014 Kolaza - All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="footer-nav">
+                                <li><a href="#">Sitemap</a>
+                                </li>
+                                <li><a href="#">Privacy Policy</a>
+                                </li>
+                                <li><a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Copyright -->
+
             </div>
+        </footer>
+        <!-- End Footer -->
+
+    </div>
+    </div>
+    <!-- End Container -->
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top"><i class="icon-up-open-1"></i></a>
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
 
 </body>
 
