@@ -14,7 +14,7 @@
 /*   10 - Sidebar Styles           */
 /*   11 - Footer Styles 		   */
 /*   12 - Plugins Styles 	  	   */
-
+/*   13 - Custom Styles 	  	   */
 
 
 
@@ -5030,4 +5030,18 @@ ul.footer-nav li a:hover {
 }
 .switcher-box .open-switcher i {
 	display: none;
+}
+
+
+
+/*------------------------------------------*/
+/*			   13 - Custom Styles
+/*------------------------------------------*/
+
+.member-socail.shift-up {
+    margin-top:0px;
+}
+
+.member-info.shift-down {
+    padding-bottom:0px;
 }
